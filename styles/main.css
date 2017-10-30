@@ -1,0 +1,41 @@
+body {
+	font-family: "Helvetica", "Arial", serif;
+	color: #333;
+	background-color: #ffe6ea;
+	margin: 1em 10%;
+  max-width: 1200px;
+  background-image: url();
+
+}
+h1 {
+  color: #333;
+  background-color: transparent;
+  text-align: center;
+}
+.picture-box {
+	box-sizing: border-box;
+  background-color: yellow;  
+  margin: 2em;
+
+}
+img {
+  border: 0;
+  width: 100%;
+  display: block;
+  margin:auto;
+}
+#rose-1 {
+  display: none;
+}
+#rose-2 {
+  display: none;
+}
+input#show-pic-1:checked ~img#rose-1{
+  display: block;
+}
+input#show-pic-2:checked ~img#rose-2{
+  display: block;
+}
+input#show-pic-2:checked ~img#rose-1{
+  display: none;
+}
