@@ -14,13 +14,13 @@ h1 {
 }
 .picture-box {
 	box-sizing: border-box;
-  background-color: yellow;  
+  
   margin: 2em;
 
 }
 img {
   border: 0;
-  width: 100%;
+  width: 95%;
   display: block;
   margin:auto;
 }
